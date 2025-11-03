@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Fisrt Project</title>
+<link rel="stylesheet" href="Coffee.css">
+</head>
+  <body>
+    <div class="assign-2-shape-1">Normal Div</div>
+    <div class="assign-2-shape-2">Normal Div</div>
+    <div class="assign-2-shape-3">Normal Div</div>
+    <div class="assign-2-shape-4">Normal Div</div>
+  </body>
+</html>
+-------------------------------------------------------------------------------------
+div{
+        width: 400px;
+        height: 400px;    
+        background-image: url(../home/css-assignment-5-8.png);
+    }
+    .assign-2-shape-1{   
+    background-repeat: no-repeat;
+    background-size: 80%;
+    }
+    .assign-2-shape-2{
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 90%;
+    }
+    .assign-2-shape-3{
+     background-repeat: repeat-x;
+     background-position: bottom;
+     background-size: 90%;
+    }
+    .assign-2-shape-4{
+    background-repeat:no-repeat;
+    background-position:bottom right;
+    background-size: 50%;
+    }
+
+
+
