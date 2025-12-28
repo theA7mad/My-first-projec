@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
 }
-.all{
+.all {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   gap: 300px;
 }
@@ -129,13 +129,12 @@ header a:hover {
   background-color: #ecc94b;
   padding: 0% 20px;
   border: solid black 2px;
-  text-align:justify;
-  
+  text-align: justify;
 }
 .who {
   font-size: 50px;
   text-align: center;
-  background-color:#f9fafb
+  background-color: #f9fafb;
 }
 .at {
   text-align: justify;
@@ -152,7 +151,7 @@ hr {
   justify-content: center;
   font-size: 30px;
   font-family: serif;
-  background-color:#f9fafb;
+  background-color: #f9fafb;
 }
 .sale {
   display: flex;
@@ -168,7 +167,7 @@ main {
 
 .grid {
   display: grid;
-  background-color:#f9fafb;
+  background-color: #f9fafb;
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   align-items: start;
@@ -227,11 +226,11 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: #ffd700;   
+  color: #ffd700;
 }
 footer a:hover {
-  color: #ffecb3; 
-} 
+  color: #ffecb3;
+}
 
 .footer__col {
   min-width: 160px;
@@ -272,7 +271,7 @@ footer a:hover {
   .b {
     font-size: 100px;
   }
-  .all{
+  .all {
     gap: 40px;
   }
 }
@@ -314,7 +313,7 @@ footer a:hover {
   }
 
   .grid {
-    grid-template-columns: 1fr 0% ;
+    grid-template-columns: 1fr 0%;
     grid-gap: 40px;
     padding: 20px;
   }
@@ -393,7 +392,7 @@ footer a:hover {
   header .flex2 {
     display: none;
   }
-  .flex1{
+  .flex1 {
     display: flex;
     flex-direction: row-reverse;
     height: 20px;
@@ -416,7 +415,7 @@ footer a:hover {
     background: #2c1a1a;
     border-radius: 4px;
     transition: 0.3s;
-     z-index: 2000;
+    z-index: 2000;
   }
 
   .burger-menu {
@@ -427,7 +426,7 @@ footer a:hover {
     left: 0;
     width: 100%;
     text-align: center;
-     z-index: 2000;
+    z-index: 2000;
   }
 
   .burger-menu ul {
